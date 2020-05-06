@@ -53,6 +53,38 @@ nav ul li a{
 	text-decoration: none;
 	color: #fff;
 }
+/* Header */
+header{
+	background-image: url(../img/Background.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	text-align: center;
+	padding: 30px;
+}
+
+header p{
+	margin-bottom: 2em;
+	font-size: 1.7em;
+}
+
+.botao{
+	color: #fff;
+	text-decoration: none; 
+	padding: 10px 30px;
+	background-color: #FFA500;
+	font-size: .8em;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+
+
+}
+
 
 
 @media screen and (min-width: 768px){
@@ -68,4 +100,12 @@ nav ul{
 
 	flex-direction: row;
 	width: 70%;
+}
+
+header{
+	height: 500px;
+	height: 50vh;
+	justify-content: center;
+
+
 }
