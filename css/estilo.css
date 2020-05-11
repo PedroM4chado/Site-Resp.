@@ -1,4 +1,4 @@
-
+ 
 /* Formatação Geral */
 body{
 	font-family: "Roboto+Slab", "Dancing+Script", cursive;
@@ -14,6 +14,12 @@ h1, h2, h3{
 
 p{
 	font-family: "Dancing+Script", "Roboto+Slab",  cursive;
+}
+
+
+.container{
+width: 100%
+
 }
 /* cabeçalho */
 .logo img{
@@ -64,7 +70,7 @@ header{
 	flex-direction: column;
 	text-align: center;
 	text-align: center;
-	padding: 30px;
+	padding: 0px;
 }
 
 header p{
@@ -81,31 +87,72 @@ header p{
 	border-radius: 50%;
 	margin-left: auto;
 	margin-right: auto;
-
-
 }
 
+/* Sobre */
 
+#sobre{
 
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	background-color: #ADFF2F;
+	color: #000;
+}
+#sobre h2{
+	margin-top: 20px;
+	font-size:  2em;
+}
+.foto img{
+	width: 60%;
+}
+
+.foto{
+	float: left;
+	width: 50%;
+}
+
+.texto{
+	float: right;
+	width: 50%;
+}
 @media screen and (min-width: 768px){
 
 /* Cabeçalho */
 nav{
-
 	flex-direction: row;
 	justify-content: space-around;
 }
 
 nav ul{
-
 	flex-direction: row;
 	width: 70%;
 }
 
 header{
-	height: 500px;
 	height: 50vh;
 	justify-content: center;
+}
 
 
+/* sobre */
+
+
+#sobre{
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	height: 90vh;
+	justify-content: center;
+	min-height: 80vh;
+}
+#sobre h2{
+	text-align: center;
+	width: 100%;
+}
+#sobre div{
+	flex-grow: 1;
+	flex-basis: 300px;
+	padding: 0 10px;
 }
