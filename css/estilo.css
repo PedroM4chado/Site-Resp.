@@ -152,6 +152,62 @@ header p{
 	font-size: 2em;
 }
 
+/*competencias*/
+
+#competencias{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#competencias h2{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 2em;
+	text-align: center;
+}
+
+#competencias h3,p{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 1em;
+	text-align: center;
+}
+
+#competencias a{
+	text-decoration: none;
+}
+
+#competencias img{
+	width: 80%;
+	margin-bottom: 0;
+}
+#competencias .comp p{
+	border-left: 5px solid black;
+	border-right: 5px solid black;
+	border-bottom: 5px solid black;
+	border-radius: 10%;
+	margin-top: 0;
+	font-family: "Gochi Hand", "Helvetica", "Arial", sans-serif;
+	padding-right: 15px;
+	padding-left: 15px;
+	line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Cabeçalho */
 nav{
@@ -211,3 +267,19 @@ header{
 	padding: 0 10px;
 }
 
+/*competencia*/
+
+#competencias{
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#competencias h2,h3{
+	width: 100%;
+	text-align: center;
+}
+
+#competencias .comp{
+	width: 33.33333333333333%;
+	text-align: center;
+}
