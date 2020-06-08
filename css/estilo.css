@@ -6,7 +6,6 @@ body{
 }
 
 h1, h2, h3{
-
 	margin: 0;
 	font-family: Cookie, Handlee, cursive;
 	font-weight: 700;
@@ -18,13 +17,11 @@ p{
 
 
 .container{
-width: 100%
-
+width: 100%;
 }
 /* cabeçalho */
 .logo img{
 	border-radius: 50%;
-
 }
 
 nav{
@@ -33,7 +30,6 @@ nav{
 	align-items: center;
 	background-color: #DAA520;
 	padding: 32px; 
-
 }
 
 nav ul{
@@ -49,10 +45,9 @@ nav ul li{
 	text-align: center;
 	width: 100%;
 	font-size: 1.5em;
-	padding: 2%
+	padding: 2%;
 }
 nav ul li a{
-
 	display: inline-block;
 	padding: 10px 0;
 	width: 100%;
@@ -100,10 +95,12 @@ header p{
 	background-color: #ADFF2F;
 	color: #000;
 }
+
 #sobre h2{
 	margin-top: 20px;
 	font-size:  2em;
 }
+
 .foto img{
 	width: 60%;
 }
@@ -117,6 +114,7 @@ header p{
 	float: right;
 	width: 50%;
 }
+
 @media screen and (min-width: 768px){}
 
 /* Especialidade */
@@ -197,7 +195,43 @@ header p{
 	line-height: 1.5;
 }
 
+.trab img:hover{
+	-ms-transform: rotate(-25deg);
+	-webkit-transform: rotate(-25deg);
+	-moz-transform: rotate(-25deg);
+	-o-transform: rotate(-25deg);
+	transform: rotate(-25deg);
+}
+/* Hobbyes */
 
+#hobby{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 100%;
+}
+
+#hobby h2{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 2em;
+	text-align: center;
+}
+
+.hobby{
+	width: 100%;
+	align-items: center;
+	text-align: center;
+}
+
+.hobby h3{
+	font-size: 1.5em;
+	margin-top: 30px;
+	margin-bottom: 14px;
+}
 
 
 
@@ -237,10 +271,12 @@ header{
 	justify-content: center;
 	min-height: 80vh;
 }
+
 #sobre h2{
 	text-align: center;
 	width: 100%;
 }
+
 #sobre div{
 	flex-grow: 1;
 	flex-basis: 300px;
