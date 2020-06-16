@@ -234,15 +234,56 @@ header p{
 }
 
 
+/* contato */
+
+#contato{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	background-color:  #98FB98;
+	width: 100%;
+}
+
+#contato h2{
+	margin-left: 20px;
+	margin-width: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size: 2em;
+	text-align: center;
+	color: #228B22;
+}
+
+#contato > p{
+	margin-bottom: 20px;
+	font-size: 1.2em;
+	color: #32CD32;
+	text-align: center;
+}
+
+#contato a{
+	text-decoration: none;
+	color: #32CD32;
+	font-family: "Helvetica", "Gochi Hand", "Arial", sans-serif;
+	text-align: center;
+}
+
+/*flooter*/
+
+footer {
+	text-align: center;
+	width: 100%;
+	background-color:#FFD700;
+	color: #FF8C00;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
 
 
 
 
-
-
-
-
-
+@media screen and (min-width: 768px){
 /* Cabeçalho */
 nav{
 	flex-direction: row;
@@ -317,5 +358,24 @@ header{
 
 #competencias .comp{
 	width: 33.333333%;
+	text-align: center;
+}
+
+/*CONTATO*/
+
+#contato{
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	max-width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	max-height: 40vh;
+	width: 100%;
+}
+
+#contato h2,
+#contato p{
+	width: 100%;
 	text-align: center;
 }
